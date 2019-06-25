@@ -1,0 +1,46 @@
+/*
+ * @Description: 
+ * @Author: Guo Jiawei
+ * @Date: 2019-06-22 23:39:40
+ * @LastEditors: Guo Jiawei
+ * @LastEditTime: 2019-06-26 00:11:13
+ */
+.soft-keyboard-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  pointer-events: none;
+}
+
+.soft-keyboard-container {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 24px;
+  pointer-events: all;
+}
+
+.soft-keyboard {
+  padding: 4px 8px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  background-color: #d2d2d2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 -1px 6px #727272;
+}
+
+.keyboard-row {
+  /* width: 100%; */
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 4px 0;
+}

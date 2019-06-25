@@ -1,0 +1,23 @@
+<!--
+ * @Description: 
+ * @Author: Guo Jiawei
+ * @Date: 2019-06-23 00:34:01
+ * @LastEditors: Guo Jiawei
+ * @LastEditTime: 2019-06-25 01:42:48
+ -->
+<div
+  class="char-key"
+  [class.middle-key]="key.type == 1 || key.type == 2 || key.type == 4"
+  [class.big-key]="key.type == 3"
+  [class.key-pressed]="pressed"
+  (touchstart)="onTouchStart($event)"
+  (touchend)="onTouchEnd($event, key)"
+  (mousedown)="onMouseDown($event)"
+  (mouseup)="onMouseUp($event, key)"
+  (mouseout)="onMouseOut($event)"
+>
+  {{ shifted ? key.upper : key.lower }}
+  <div *ngIf="key.type == 1" class="icon-shift"></div>
+  <div *ngIf="key.type == 2" class="icon-backspace"></div>
+  <div *ngIf="key.type == 4" class="icon-return"></div>
+</div>

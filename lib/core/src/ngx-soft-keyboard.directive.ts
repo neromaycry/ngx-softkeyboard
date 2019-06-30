@@ -3,7 +3,7 @@
  * @Author: Guo Jiawei
  * @Date: 2019-06-23 00:57:57
  * @LastEditors: Guo Jiawei
- * @LastEditTime: 2019-06-25 01:40:55
+ * @LastEditTime: 2019-07-01 01:44:38
  */
 import { Directive, OnInit, OnDestroy, ElementRef, HostListener, Output, EventEmitter } from '@angular/core';
 import { NgxSoftKeyboardService } from './ngx-soft-keyboard.service';

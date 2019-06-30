@@ -1,0 +1,32 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "name": "@ngx-soft-keyboard/core",
+  "version": "0.0.1",
+  "description": "Onscreen soft keyboard for Angular7+.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neromaycry/ngx-softkeyboard.git"
+  },
+  "author": "Guo Jiawei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neromaycry/ngx-softkeyboard/issues"
+  },
+  "homepage": "https://github.com/neromaycry/ngx-softkeyboard",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@angular/animations": "~7.2.0",
+    "@angular/common": "~7.2.0",
+    "@angular/compiler": "~7.2.0",
+    "@angular/core": "~7.2.0",
+    "@angular/forms": "~7.2.0",
+    "@angular/platform-browser": "~7.2.0",
+    "@angular/platform-browser-dynamic": "~7.2.0",
+    "core-js": "^2.5.4",
+    "rxjs": "~6.3.3",
+    "tslib": "^1.9.0",
+    "zone.js": "~0.8.26"
+  }
+}

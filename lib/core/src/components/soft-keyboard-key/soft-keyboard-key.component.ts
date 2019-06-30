@@ -3,7 +3,7 @@
  * @Author: Guo Jiawei
  * @Date: 2019-06-23 00:33:39
  * @LastEditors: Guo Jiawei
- * @LastEditTime: 2019-06-25 01:41:42
+ * @LastEditTime: 2019-07-01 01:47:41
  */
 import { Component, Input, ElementRef } from '@angular/core';
 import { NgxSoftKey } from '../../ngx-soft-key.model';

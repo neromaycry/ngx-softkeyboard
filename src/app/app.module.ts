@@ -3,7 +3,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { NgxSoftKeyboardModule } from './ngx-soft-keyboard/ngx-soft-keyboard.module';
+import { NgxSoftKeyboardModule } from '../../lib/core/src/ngx-soft-keyboard.module';
 
 @NgModule({
   declarations: [AppComponent],

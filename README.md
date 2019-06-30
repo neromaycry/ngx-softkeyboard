@@ -1,6 +1,29 @@
 # NgxSoftkeyboard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+Onscreen soft keyboard for Angular7+.
+
+##Getting Started
+1.Install using npm: 
+`npm i --save ngx-softkeyboard`
+
+2.Add the module to your project, e.g. `app.module.ts`:
+```
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgModule } from '@angular/core';
+
+import { AppComponent } from './app.component';
+import { NgxSoftKeyboardModule } from 'ngx-soft-keyboard/ngx-soft-keyboard.module';
+
+@NgModule({
+  declarations: [AppComponent],
+  imports: [BrowserModule, BrowserAnimationsModule, NgxSoftKeyboardModule],
+  providers: [],
+  bootstrap: [AppComponent],
+})
+export class AppModule {}
+```
+
 
 ## Development server
 

@@ -3,7 +3,7 @@
  * @Author: Guo Jiawei
  * @Date: 2019-06-23 00:33:50
  * @LastEditors: Guo Jiawei
- * @LastEditTime: 2019-06-25 01:42:57
+ * @LastEditTime: 2019-07-01 01:06:17
  */
 .char-key {
   width: 60px;
@@ -37,7 +37,7 @@
   background-repeat: no-repeat;
   background-position: 25% 50%;
   background-size: 30%;
-  background-image: url('../../../../assets/keyboard-shift.svg');
+  background-image: url('../../assets/keyboard-shift.svg');
 }
 
 .icon-return {
@@ -46,7 +46,7 @@
   background-repeat: no-repeat;
   background-position: 25% 50%;
   background-size: 30%;
-  background-image: url('../../../../assets/keyboard-return.svg');
+  background-image: url('../../assets/keyboard-return.svg');
 }
 
 .icon-backspace {
@@ -55,5 +55,5 @@
   background-repeat: no-repeat;
   background-position: 25% 50%;
   background-size: 30%;
-  background-image: url('../../../../assets/keyboard-backspace.svg');
+  background-image: url('../../assets/keyboard-backspace.svg');
 }
